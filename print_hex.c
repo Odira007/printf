@@ -50,7 +50,7 @@ int print_hex(unsigned int n, unsigned int c)
 }
 
 /**
- * print_hex - takes an unsigned int an prints it in lowercase hex
+ * _print_hex - takes an unsigned int an prints it in lowercase hex
  * @x: unsigned int to print
  * Descriptions: prints in lowercase hex with _putchar
  * Return: size of the output
@@ -60,7 +60,7 @@ int _print_hex(va_list x)
 	return (print_hex(va_arg(x, unsigned int), 0));
 }
 /**
- * print_heX - takes an unsigned int an prints it in uppercase hex
+ * _print_heX - takes an unsigned int an prints it in uppercase hex
  * @X: unsigned int to print
  * Descriptions: prints in uppercase hex with _putchar
  * Return: size of the output

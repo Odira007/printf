@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- * _find_function - function that finds formats for _printf
+ * find_function - function that finds formats for _printf
+ * calls the corresponding function.
  * @format: format (char, string, int, decimal)
  * Return: Return: NULL or function associated
  */

@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _print_char - prints character from the corresponding argument from the arguments list
- * @ls: list of arguments, va_list
+ * _print_char - prints character
+ * @c: list of arguments, va_list
  * Return: the number of printed chars, int
  */
 int _print_char(va_list c)
@@ -12,17 +12,6 @@ int _print_char(va_list c)
 
 	my_char = va_arg(c, int);
 	_putchar(my_char);
-	return (1);
-}
-
-/**
- * _print_mod - prints "%" character
- * 
- * Return: the number of printed chars, int
- */
-int _print_mod(void)
-{
-	_putchar('%');
 	return (1);
 }
 

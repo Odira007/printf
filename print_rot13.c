@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_rot13 - encodes a string into rot13.
+ * _print_rot13 - encodes a string into rot13.
  * @R: string to convert
  * Return: size the output text
  */
